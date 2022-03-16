@@ -1,0 +1,214 @@
+.logo {
+  width: 140px;
+  padding-inline-end: 3rem;
+}
+
+.shadow {
+  box-shadow: 0px 2px 8px #ddd !important;
+}
+
+.toolbar {
+  padding: 5px 0;
+}
+
+.grow {
+  flex: 1;
+}
+
+.appbar {
+  height: 65px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px #ddd !important;
+  transition: all ease-in 3s;
+  transition-delay: 1s;
+}
+
+.divider {
+  height: 28px;
+  margin: 4px;
+}
+.mobile_tabButtons {
+  margin-bottom: 15px;
+}
+
+.locationInput {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.locationInput input {
+  padding: 0;
+  height: 30px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.locationLabel {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  font-size: 13px;
+}
+
+.MuiListItem-root {
+  text-align: start;
+}
+
+.MuiButton-startIcon {
+  margin-left: 0;
+  margin-right: 0;
+  margin-inline-start: -4px;
+  margin-inline-end: 8px;
+}
+
+html[dir="rtl"] .locationLabel {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  font-size: 13px;
+}
+
+.relative {
+  position: relative;
+}
+
+.navLocationContainer {
+  max-width: 500px;
+  border-radius: 50px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline-start: 15px;
+  padding-inline-end: 4px;
+  box-shadow: 0px 2px 8px #ddd !important;
+}
+
+.MuiPopover-paper {
+  transform: translate(0, 20px) !important;
+  /* box-shadow: 0px 2px 8px rgb(197, 197, 197) !important; */
+}
+
+.MuiTouchRipple-rippleVisible {
+  color: #f15a24 !important;
+}
+
+.navLocationContainer .locationIcon {
+  font-size: 1.8rem;
+}
+.location {
+  padding-inline-start: 10px;
+}
+
+.toolbar {
+  min-height: 80px !important;
+}
+
+.profileImg {
+  width: 32px;
+  margin-inline-end: 10px;
+}
+
+.username {
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .locationInput {
+    margin-bottom: 0px;
+  }
+  .navLocationContainer {
+    border-radius: 50px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline-start: 15px;
+    padding-inline-end: 2px;
+  }
+  .navLocationContainer .actionbtns {
+    display: none;
+  }
+  .locationInput input {
+    height: 40px !important;
+  }
+  .logo {
+    width: 110px;
+    padding-inline-end: 0 !important;
+  }
+
+  .locationLabel {
+    top: 0 !important;
+  }
+  .navLocationContainer .MuiGrid-container {
+    justify-content: start !important;
+  }
+}
+@media (min-width: 600px) {
+  .appbar.show {
+    height: 160px !important;
+  }
+  .mobile_tabButtons {
+    display: none !important;
+  }
+
+  .mobileLocationToggle {
+    margin-inline-end: 15px !important;
+  }
+}
+@media (max-width: 600px) {
+  .appbar.show {
+    height: auto !important;
+  }
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .hide350 {
+    display: none !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .mobileLocationToggle {
+    display: none !important;
+  }
+  .appbar,
+  .appbar.show {
+    height: 90px !important;
+  }
+}
+@media (max-width: 959px) {
+  .grow {
+    order: 2;
+  }
+  .navLocationContainer {
+    max-width: 100% !important;
+    margin: 10px 0;
+  }
+  .MuiToolbar-gutters {
+    padding-inline-start: 0 !important;
+    padding-inline-end: 0 !important;
+  }
+}
+
+/* *::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  background-color: #f5f5f5 !important;
+}
+
+*::-webkit-scrollbar {
+  height: 5px !important;
+  background-color: #f5f5f5 !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f5f5f5 !important;
+} */
